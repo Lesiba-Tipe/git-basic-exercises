@@ -1,0 +1,500 @@
+    3  git clean -n
+    4  git status
+    5  git clean -f-d api/AuthApp/.vs/
+    6  git clean -n
+    7  git clean -f
+    8  git clean -f-d
+    9  git clean -f -d
+   10  git clean -f -x
+   11  git clean -i
+   12  git status
+   13  git commit -m "deleted .vs /obj /bin"
+   14  git status
+   15  git push
+   16  git status
+   17  git status
+   18  git status
+   19  git status
+   20  git status
+   21  git status
+   22  git status
+   23  git status
+   24  git status
+   25  git clean -df
+   26  git status
+   27  git clean -df
+   28  git status
+   29  git commit -m ".csproj"
+   30  git add api/AuthApp/AuthApp/AuthApp.csproj api/AuthApp/AuthApp/Controllers/UserController.cs
+   31  git status
+   32  git add .
+   33  git status
+   34  git restore --staged
+   35  git status
+   36  git restore --staged api/AuthApp/Authentication.Test/bin/ api/AuthApp/Authentication.Test/obj/ 
+   37  git status
+   38  git rm -r . --cached
+   39  git status
+   40  git checkout .
+   41  git checkout 
+   42  git status
+   43  git checkout -- .
+   44  git restt .
+   45  git reset .
+   46  git status
+   47  git rm -r api/AuthApp/.vs/ --cached
+   48  git branch
+   49  git checkout -b feature/iPhoneX
+   50  git status
+   51  git add api/AuthApp/AuthApp/Controllers/UserController.cs
+   52  git commit -m "Decorated getUsers with AuthZ Admin"
+   53  git status
+   54  git rm 
+   55  git rm  api/AuthApp/AuthApp/bin/
+   56  git add  angular/AuthApp/src/ api/AuthApp/AuthApp/Controllers/ api/AuthApp/AuthApp/Dto/ api/AuthApp/AuthApp/Service/ api/AuthApp/AuthApp/appsettings.json doc/ docs/ api/AuthApp/AuthApp/Input/ api/AuthApp/AuthApp/Properties/AssemblyInfo.cs  api/AuthApp/AuthApp/log4net.config
+   57  git status
+   58  git add  api/AuthApp/AuthApp/AuthApp.csproj api/AuthApp/AuthApp/Config/MapperConfig.cs
+   59  git status
+   60  git commit -m "Refactor RequstOTP by and accoount controller, added inputs"
+   61  git status
+   62  git stash
+   63  git status
+   64  git push
+   65  git push
+   66  git status
+   67  git status
+   68  git add api/AuthApp/AuthApp/Service/AuthManager.cs
+   69  git status
+   70  git commit -m "Refactor authmanager"
+   71  git push
+   72  git status
+   73  git checkout main
+   74  git stash
+   75  git status
+   76  git rm --cached
+   77  git checkout -f main
+   78  git status
+   79  git rm --cached
+   80  git stash
+   81  git status
+   82  git stash
+   83  git status
+   84  git branch
+   85  git merge feature/google-Authentication
+   86  git status
+   87  git push
+   88  git branch -a
+   89  git push -d origin feature/google-Authentication
+   90  git status
+   91  git status
+   92  git fetch
+   93  git status
+   94  git status
+   95  git status
+   96  git status
+   97  git status
+   98  git status
+   99  git add .
+  100  git status
+  101  git restore --staged .
+  102  git status
+  103  git status
+  104  git rm -r --cached api/AuthApp/.vs/
+  105  git -b
+  106  git branch -a
+  107  ng serve -o
+  108  git status
+  109  git add 
+  110  git add angular/AuthApp/src/app/
+  111  git add api/AuthApp/AuthApp/Controllers
+  112  git status
+  113  git commit -m "Refactor email token"
+  114  git push
+  115  git status
+  116  git -b feature/firebase
+  117  git checkout -b feature/firebase
+  118  git status
+  119  angular/AuthApp/package-lock.json
+  120  angular/AuthApp/package-lock.json
+  121  git add angular/AuthApp/package-lock.json
+  122  git status
+  123  git add angular/AuthApp/
+  124  git status
+  125  angular/AuthApp/firebase-debug.log
+  126  git add angular/AuthApp/firebase-debug.log
+  127  git status
+  128  git commit -m "firebase init"
+  129  git commit push
+  130  git push
+  131  git push --set-upstream origin feature/firebase
+  132  git status
+  133  git status
+  134  angular/AuthApp/firebase-debug.log 
+  135  angular/AuthApp/firebase-debug.log 
+  136  angular/AuthApp/firebase-debug.log 
+  137  git add angular/AuthApp/firebase-debug.log 
+  138  git add angular/AuthApp/firebase-debug.log
+  139  git add .github/
+  140  git status
+  141  angular/AuthApp/src/app/home/home.component.html
+  142  git add angular/AuthApp/src/app/home/home.component.html
+  143  git commit -m "Changed hosting to github"
+  144  git push
+  145  git status
+  146  git status
+  147  git commit -m "test"
+  148  git status
+  149  git status
+  150  git add  angular/AuthApp/package-lock.json
+  151  git commit -m "Updated lock-json"
+  152  git push
+  153  git status
+  154  git add  angular/AuthApp/package-lock.json
+  155  git commit -m "deleted lock-json"
+  156  git push
+  157  git status
+  158  git add  angular/AuthApp/package-lock.json
+  159  git status
+  160  git commit -m "regenerated lock-file"
+  161  git push
+  162  git status
+  163  git clone https://github.com/briancodex/html-css-website-v1.git
+  164  git clone 
+  165  git clone https://github.com/bedimcode/responsive-portfolio-website-patrick.git
+  166  git checkout main
+  167  git fetch remote
+  168  git fetch -all
+  169  git fetch --all
+  170  git branch -r
+  171  git checkout master
+  172  git clone https://github.com/Lesiba-Tipe/node-server.git
+  173  git status
+  174  netlify login
+  175  git checkout -b deploy/render
+  176  git status
+  177  git add .gitignore functions index.html netlify.toml package-lock.json package.json
+  178  git status
+  179  git commit -m ""Intialization"
+  180  git status
+  181  git commit -m "Initialization"
+  182  git push
+  183  git push
+  184  git status
+  185  git add app.js .gitignore functions/app.js netlify.toml package.json
+  186  git commit -m "Render"
+  187  git push
+  188  git push --set-upstream origin deploy/render
+  189  git status
+  190  git add app.js index.js package.json
+  191  git add app.js index.html package.json
+  192  git status
+  193  git commit -m "styled landing page"
+  194  git push
+  195  git status
+  196  git add docs
+  197  git status
+  198  git commit -m "Added mobile and desktop"
+  199  git status
+  200  git checkout master
+  201  git checkout main
+  202  git branch
+  203  git checkout develop
+  204  git checkout feature/develop
+  205  git checkout feature/iPhoneX
+  206  git status
+  207  git add docs
+  208  git status
+  209  git commit -m "created js for get method"
+  210  git checkout main
+  211  git branch
+  212  git checkout feature/nodejs
+  213  git checkout feature/iPhoneX
+  214  git status
+  215  git add .
+  216  git commit -m "Added Quotes"
+  217  git push
+  218   git push --set-upstream origin feature/iPhoneX
+  219  git checkout -b main
+  220  git checkout main
+  221  git merge feature/iPhoneX
+  222  git status
+  223  git push
+  224  git clone https://github.com/Lesiba-Tipe/job-cafe.git
+  225  git status
+  226  git add .
+  227  git commit -m "Init"
+  228  git push
+  229  git push
+  230  git status
+  231  git clone https://github.com/Lesiba-Tipe/react-job-cafe.git
+  232  git status
+  233  git add  .gitignore
+  234  git add  .gitignore  README.md src/ public/ package.json package-lock.json
+  235  git commit -m "Added react app"
+  236  git push
+  237  git branch -b feature/demo-deploy
+  238  git checkout -b feature/demo-deploy
+  239  git status
+  240  git checkout -b feature/mobile
+  241  git status
+  242  git add .
+  243  git status
+  244  git add Database/Youthcafe.json
+  245  git commit -m "..."
+  246  git push
+  247  git status
+  248  git add Database/Youthcafe.json
+  249  git commit -m "..."
+  250  git push
+  251  git add Database/Youthcafe.json
+  252  git commit -m "..."
+  253  git push
+  254  git push
+  255  git status
+  256  git add Database/Youthcafe.json
+  257  git status
+  258  git commit -m "..."
+  259  git push
+  260  git add Database/Youthcafe.json
+  261  git commit -m "..."
+  262  git push
+  263  git status
+  264  git add database.youthcafe.json
+  265  git add  Database/Youthcafe.json
+  266  git commit -m "..."
+  267  git push
+  268  git add  Database/Youthcafe.json
+  269  git commit -m "..."
+  270  git push
+  271  git add  Database/Youthcafe.json
+  272  git commit -m "files update"
+  273  git push
+  274  git status
+  275  git add -u .
+  276  git status
+  277  git add angular/AuthApp/src/app/landing-page/ angular/AuthApp/src/app/service/account.service.ts  angular/AuthApp/src/assets/img/forbiddenAsset 14@72x.png api/AuthApp/AuthApp/Controllers/PermissionController.cs docs/Aero space/
+  278  git add angular/AuthApp/src/app/landing-page/ angular/AuthApp/src/app/service/account.service.ts  angular/AuthApp/src/assets/img/forbiddenAsset14@72x.png api/AuthApp/AuthApp/Controllers/PermissionController.cs docs/Aero space/
+  279  git add angular/AuthApp/src/app/landing-page/ angular/AuthApp/src/app/service/account.service.ts api/AuthApp/AuthApp/Controllers/PermissionController.cs docs/Aero space/
+  280  git add angular/AuthApp/src/app/landing-page/ angular/AuthApp/src/app/service/account.service.ts api/AuthApp/AuthApp/Controllers/PermissionController.cs
+  281  git status
+  282  git add angular/AuthApp/src/assets/img/forbiddenAsset 14@72x.png
+  283  git add "docs.Aero space/" "angular/AuthApp/src/assets/img/forbiddenAsset 14@72x.png"
+  284  git add "docs/Aero space/" "angular/AuthApp/src/assets/img/forbiddenAsset 14@72x.png"
+  285  git status
+  286  git commit -m "Landing page"
+  287  git push
+  288  git status
+  289  git rm --cached api/AuthApp/.vs/
+  290  git rm --cached "api/AuthApp/.vs/"
+  291  git rm --cached "api/AuthApp/.vs/*"
+  292  git rm --cached api/AuthApp/.vs/*
+  293  git rm --cached 
+  294  git rm --cached 
+  295  git status
+  296  git rm --cached api/AuthApp/AuthApp/bin/
+  297  git rm --cached api/AuthApp/AuthApp/bin/*
+  298  git rm --cached "api/AuthApp/AuthApp/bin/"
+  299  git rm -f --cached api/AuthApp/AuthApp/bin/
+  300  git add api/AuthApp/AuthApp/bin/
+  301  git rm --cached "api/AuthApp/AuthApp/bin/"
+  302  git status
+  303  git rm -f --cached api/AuthApp/AuthApp/bin/
+  304  git rm -r --cached api/AuthApp/AuthApp/bin/
+  305  git status
+  306  git rm --cached "api/AuthApp/AuthApp/bin/"
+  307  git rm -r --cached api/AuthApp/AuthApp/bin/
+  308  git status
+  309  git clean -f
+  310  git status
+  311  git checkout -b main
+  312  git checkout main
+  313  git status
+  314  git status
+  315  git status
+  316  git add ReadMe.md
+  317  git status
+  318  git commit -m "Added readme"
+  319  git push
+  320  git status
+  321  git checkout feature/firebase
+  322  git status
+  323  git add  Database/Youthcafe.json
+  324  git commit -m "thru"
+  325  git push
+  326  git add  Database/Youthcafe.json
+  327  git commit -m "total"
+  328  git push
+  329  git add  Database/Youthcafe.json
+  330  git commit -m "tiger"
+  331  git push
+  332  git status
+  333  git add .
+  334  git push
+  335  git clone https://github.com/Umuzi-org/Lesiba-Moshweu-394-bash-for-bootcamp-.git
+  336  git clone https://github.com/Umuzi-org/Lesiba-Moshweu-394-bash-for-bootcamp-.git
+  337  git status
+  338  git status
+  339  git status
+  340  git status
+  341  git add .
+  342  git status
+  343  git commit -m "Answered all 13 questions"
+  344  git push
+  345  ls -a
+  346  git status
+  347  touch README.md
+  348  ls -a
+  349  git status
+  350  git add
+  351  git add readme.md
+  352  git status
+  353  git add README.md
+  354  git status
+  355  git rm --cached README.md
+  356  git status
+  357  git add README.md
+  358  git commit -m "initial commit"
+  359  git log
+  360  nano README.md
+  361  cat README.md
+  362  git commit -m "second commit"
+  363  git add README.md
+  364  git status
+  365  git commit -m "second commit"
+  366  nano README.md
+  367  cat README.md
+  368  git add README.md
+  369  git commit -m "third commit"
+  370  git status
+  371  git log
+  372  q
+  373  git checkout 946409d4a4645e7dbd1a85bd904597c9d1bc4985
+  374  cat README.md
+  375  git checkout main
+  376  git checkout master
+  377  cat README.md
+  378  git checkout
+  379  git branch
+  380  git branch milkshake-flavours
+  381  git branch
+  382  git checkout milkshake-flavours
+  383  git branch
+  384  nano milkshakes.md
+  385  git status
+  386  git commit -m "added initial flavours"
+  387  git add milkshakes.md
+  388  git commit -m "added initial flavours"
+  389  git status
+  390  git log
+  391  git checkout master
+  392  git log
+  393  git checkout -b history
+  394  git branch
+  395  git log
+  396  git checkout milkshake-flavours
+  397  git status
+  398  nano milkshakes.md
+  399  git add milkshakes.md
+  400  git commit -m "random readme changes"
+  401  git status
+  402  git checkout history
+  403  cat README.md
+  404  rm README.md
+  405  echo "booya" > README.md
+  406  git status
+  407  cat README.md
+  408  git add README.md
+  409  git status
+  410  git commit -m "rewrote readme"
+  411  git checkout master
+  412  ls
+  413  git log
+  414  git checkout milkshake-flavours
+  415  ls
+  416  got log
+  417  git log
+  418  git checkout history
+  419  ls
+  420  git log
+  421  git checkout master
+  422  merge milkshake-flavours
+  423  git merge milkshake-flavours
+  424  git ls
+  425  ls
+  426  git log
+  427  git merge history
+  428  git status
+  429  git commit -m "merged from history"
+  430  git checkout history
+  431  git merge master
+  432  git checkout master
+  433  git remote add origin https://github.com/Lesiba-Tipe/git-basic-exercises.git
+  434  git branch -M main
+  435  git push -u origin main
+  436  git checkout history
+  437  git status
+  438  git push
+  439  git push --set-upstream origin history
+  440  git push --set-upstream origin milkshake-flavours
+  441  cd ../
+  442  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  443  cd a-repo-to-clone
+  444  git branch
+  445  git log
+  446  git branch -a
+  447  git branch -r
+  448  git remote -v
+  449  git fetch
+  450  git branch
+  451  git remote -v
+  452  git checkout a-branch-with-a-few-commits
+  453  git branch
+  454  git log
+  455  cd ../
+  456  mkdir this-will-be-another-repo
+  457  cd this-will-be-another-repo
+  458  git init
+  459  ls
+  460  touch README.md
+  461  nano README.md
+  462  git status
+  463  git commit -m "initial commit"
+  464  git add README.md
+  465  git commit -m "initial commit"
+  466  cd ../
+  467  ls
+  468  cd git-basic-exercises
+  469  git log
+  470  git branch
+  471  checkout main
+  472  checkout master
+  473  git checkout master
+  474  git checkout main
+  475  touch ignore-me.db
+  476  git status
+  477  touch .gitignore
+  478  nano .gitignore
+  479  git stats
+  480  git status
+  481  mkdir large-directory-that-should-be-local-only
+  482  git status
+  483  cd large-directory-that-should-be-local-only
+  484  nano readme.md
+  485  git status
+  486  cd ../
+  487  git status
+  488  nano .gitignore
+  489  git status
+  490  git add .gitignore
+  491  git commit -m "Added .gitignore file"
+  492  git push
+  493  net.probe on
+  494  net.show
+  495  git clone https://github.com/Umuzi-org/Lesiba-Moshweu-429-bootcamp-writing-assignment-.git
+  496  git clone https://github.com/Umuzi-org/Lesiba-Moshweu-219-level-1-programming-katas-javascript.git
+  497  cd Lesiba-Moshweu-219-level-1-programming-katas-javascript
+  498  git pull
+  499  git checkout history
+  500  git log
+  501  git branch
+  502  history > history.txt
